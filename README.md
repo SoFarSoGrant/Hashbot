@@ -119,8 +119,8 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    - Open Terminal.
    - Navigate to your project directory.
 
-> [!TIP]
-> type `cd ` into your terminal and drag your directory into the window to get the path.
+**TIP**
+type `cd ` into your terminal and drag your directory into the window to get the path.
 
    - Run touch .env to create a new file.
   ```bash
@@ -132,8 +132,8 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 > DISCORD_GUILD=your_discord_guild_id
 > GUILD_CHANNEL=your_discord_channel_id
 ```
-> [!NOTE]
-> If you don't see the .env file in your finder window press `⌘ + shift + .` to reveal it 
+**Note**
+If you don't see the .env file in your finder window press `⌘ + shift + .` to reveal it 
 </details>
 
 **Where to find your token & IDs**
