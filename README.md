@@ -20,10 +20,10 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 2. **Local Computer**
    - [Python 3.6 or later.](https://www.python.org/downloads/)
       - Check your python version:
-        ```
+        ```bash
         # Check your python version
         python3 --version
-        ```
+       
    - `discord.py` library.
    - `python-dotenv` library for managing environment variables.
 
