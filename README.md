@@ -121,7 +121,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 > If you don't see the .env file in your finder window press `⌘ + shift + .` to reveal it 
 </details>
 
-### Where to find your token & IDs
+**Where to find your token & IDs**
    - **DISCORD_TOKEN** = Bot Token
       - See step 2.2 of Setting up your Discord Bot
    - **DISCORD_GUILD** = Server ID
