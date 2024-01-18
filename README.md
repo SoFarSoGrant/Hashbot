@@ -105,7 +105,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
    - Open Notepad.
    - Add your environment variables:
-```
+```bash
 > DISCORD_TOKEN=your_discord_bot_token
 > DISCORD_GUILD=your_discord_guild_id
 > GUILD_CHANNEL=your_discord_channel_id
@@ -119,15 +119,15 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    - Navigate to your project directory.
 
 > [!TIP]
-> 
+> type `cd ` into your terminal and drag your directory into the window to get the path.
 
 
    - Run touch .env to create a new file.
-  ```
+  ```bash
   touch .env
   ```
    - Open it with a text editor and add your environment variables.
-```
+```bash
 > DISCORD_TOKEN=your_discord_bot_token
 > DISCORD_GUILD=your_discord_guild_id
 > GUILD_CHANNEL=your_discord_channel_id
