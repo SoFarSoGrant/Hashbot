@@ -70,7 +70,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
   ![You should see something like this](https://discordjs.guide/assets/bot-auth-page.e624796f.png)
 
 
-### Congratulations, you should have a functioning Bot on your server. Now let's wake it up. 🤖
+## Congratulations, you should have a functioning Bot on your server. Now let's wake it up. 🤖 </br>
 
 
 # Creating the '.env' File
@@ -82,29 +82,29 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 ### Windows:
 
-- Open Notepad.
-- Add your environment variables:
+   - Open Notepad.
+   - Add your environment variables:
 ```
 > DISCORD_TOKEN=your_discord_bot_token
 > DISCORD_GUILD=your_discord_guild_id
 > GUILD_CHANNEL=your_discord_channel_id
 ```
-- Save the file as .env (Select "All Files" as the file type and name it .env).
+   - Save the file as .env (Select "All Files" as the file type and name it .env).
 
 ### macOS/Linux:
 
-- Open Terminal.
-- Navigate to your project directory.
-- > [!TIP]
-  > type `cd ` into your terminal and just drag your directory into the window to get the path.
-- Run touch .env to create a new file.
+   - Open Terminal.
+   - Navigate to your project directory.
+> [!TIP]
+> type `cd ` into your terminal and just drag your directory into the window to get the path.
+   - Run touch .env to create a new file.
   ```
   touch .env
   ```
-- Open it with a text editor and add your environment variables.
-- > [!NOTE]
+   - Open it with a text editor and add your environment variables.
+> [!NOTE]
 > If you don't see it in your finder window press `⌘ + shift + .` to reveal it 
-____________________
+
 
 # HashBot for Discord
 
