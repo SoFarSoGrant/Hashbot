@@ -45,7 +45,8 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 - Go to the "OAuth2" tab.
 - Under "Scopes", select "bot".
 - Select the the permissions for your bot.
-  **These permissions work just fine.**
+- **These permissions work just fine.**
+- 
   ![Permissions for your new bot](https://cdn.discordapp.com/attachments/1197390386130337852/1197392528073306193/Screenshot_2024-01-17_at_10.10.05_PM.png?ex=65bb19b1&is=65a8a4b1&hm=6aa08beb71be296b788b1abc1354c23ebc1b1deb666d989d8e7daf38e1c18673&)
 - Use the generated URL to add the bot to your Discord server.
 
