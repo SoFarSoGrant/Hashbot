@@ -52,7 +52,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    - Paste your Token in a text editor for now.
 
 3. **Remember Turning on Developer Mode?**
-   - Go to the "Bot" tab and turn on all of the **Privileged Intent Gateways**<br />
+   - Go to the "Bot" tab and turn on all of the "Privileged Gateways Intents"<br />
 
      ![Right here](https://media.discordapp.net/attachments/1197390386130337852/1197401386007146496/Screenshot_2024-01-17_at_10.44.09_PM.png?ex=65bb21f1&is=65a8acf1&hm=05b4076f13fdad4a2409fb8f51dfceebb35b6ef343872e71717c8484e6cfe9da&=&format=webp&quality=lossless&width=1440&height=476)
 
@@ -70,7 +70,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
   ![You should see something like this](https://discordjs.guide/assets/bot-auth-page.e624796f.png)
 
 
-## Congratulations, you should have a functioning Bot on your server. Now let's wake it up. 🤖 </br>
+## Congratulations, you should have a functioning Bot on your server. Now let's wake it up. 🤖 <br />
 
 
 # Creating the '.env' File
