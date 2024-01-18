@@ -118,7 +118,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    - Open Terminal.
    - Navigate to your project directory.
 > [!TIP]
-> type `cd ` into your terminal and just drag your directory into the window to get the path.
+> type drag your directory into the window to get the path.
    - Run touch .env to create a new file.
   ```
   touch .env
