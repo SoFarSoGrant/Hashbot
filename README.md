@@ -18,7 +18,9 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    - [DiscoHash](https://github.com/flamebarke/DiscoHash/tree/main) plugin for pwnagotchi installed and running.
   
 2. **Local Computer**
-   - Python 3.6 or later.
+   - [Python 3.6 or later.](https://www.python.org/downloads/)
+      - Check your python verion
+        `python3 --version`
    - `discord.py` library.
    - `python-dotenv` library for managing environment variables.
 
