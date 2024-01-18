@@ -1,5 +1,7 @@
 # HashBot for DiscoHash
 
+_Disclaimer: I did not author hashbot.py. I'm just packaging it up to help noobs like me make it work._
+
 HashBot is a custom Discord bot shamelessly pulled from [@flamebarke's](https://github.com/flamebarke) [DiscoHash plugin](https://github.com/flamebarke/DiscoHash/tree/main). Being a noob, I wanted a clear description of how to get the bot functionality & features out of the plugin. This bot allows users to request and receive network hash files directly through Discord commands.
 
 ### Acknowledgments
