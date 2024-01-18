@@ -35,7 +35,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    ```bash
    cd Hashbot
 
-3. **Install Required Libraries**:
+3. **Install Required Libraries** (if needed):
    ```bash
    # This will install the the latest Discord and python-dotenv libraries.
    pip install -r requirements.txt
