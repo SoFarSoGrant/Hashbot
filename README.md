@@ -11,7 +11,16 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 - **Hash Retrieval**: Users can request hashes for a specified number of access points through Discord.
 - **Command Interaction**: Easy-to-use Discord commands to interact with Pwnagotchi.
-- **Seamless Integration**: Works alongside the Pwnagotchi's DiscoHash plugin. 
+- **Seamless Integration**: Works alongside the Pwnagotchi's DiscoHash plugin.
+
+### Prerequisites
+1. **Pwnagotchi**
+   - [DiscoHash](https://github.com/flamebarke/DiscoHash/tree/main) plugin for pwnagotchi installed and running.
+  
+2. **Local Computer**
+   - Python 3.6 or later.
+   - `discord.py` library.
+   - `python-dotenv` library for managing environment variables.
 
 ## 1. Installation
 
@@ -129,7 +138,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    - **GUILD_CHANNEL** = Channel ID
       - Right click on your server channel (the one you invited your bot to) and select "Copy Channel ID" at the bottom of the dropdown.
 
-# 4. Let's Wake Up the Bot
+# 4. Usage: Let's Wake Up the Bot
 1. **Make sure your in the project directory**
 2. **Run the following in your terminal**
    ```
@@ -140,71 +149,12 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 ![The Bot is alive!](https://cdn.discordapp.com/attachments/1197390386130337852/1197423830038224896/wirecat-online.gif?ex=65bb36d8&is=65a8c1d8&hm=0188eb432fc87e6d0823c81b679b78c03b259eb7dad4c7285cf77b99bfe54581&)
 
-# HashBot for Discord
 
-HashBot is a custom Discord bot designed to interact with the Pwnagotchi network auditing tool, enhancing the functionality of the DiscoHash plugin. It allows users to request and receive network hash information directly through Discord commands.
-
-## Acknowledgments
-
-- This bot is an extension of the work done by @flamebarke, particularly building upon the Main DiscoHash plugin in their repository.
-- The `hashbot.py` code is derived from @flamebarke's repository and aims to augment the DiscoHash plugin's capabilities.
-
-  
-## Features
-
-- **Hash Retrieval**: Users can request hashes for a specified number of access points.
-- **Command Interaction**: Interact with the bot using simple Discord commands.
-- **Seamless Integration**: Designed to work with Pwnagotchi's custom plugin system.
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine or server for development and testing purposes.
-
-### Prerequisites
-
-- Python 3.6 or later
-- `discord.py` library
-- `python-dotenv` library for environment variable management
-
-### Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/hashbot.git
-
-### Navigate to the Repository Directory:
-
-cd hashbot
-
-### Install Required Libraries:
-
-pip install -r requirements.txt
-
-## Setting Up Discord Bot
-
-### Create a Discord Bot:
-- Visit the Discord Developer Portal.
-- Click "New Application", give it a name, and create your app.
-- Go to the "Bot" tab and click "Add Bot".
-
-
-### Set Up .env File:
-Create a .env file in the root directory.
-Add your Discord Bot Token, Guild ID, and Channel ID:
-
-DISCORD_TOKEN=your_discord_bot_token
-DISCORD_GUILD=your_discord_guild_id
-GUILD_CHANNEL=your_discord_channel_id
-
-
-## Usage
-To run the bot, use the following command in the root directory of hashbot.py and the .env file:
-
-python3 hashbot.py
-
-
-Bot Commands
-/dump [NUMBER]: Retrieves the specified number of hashes from Pwnagotchi and sends them in a text file.
+# 5. Bot Command
+1. Type `/dump` into your Discord channel's messages and your bot will provide you with an hc22000 file ready for cracking
+   - The default number of hashes in the file is 100
+2. Add a number to the `/dump` command to specify how many of the last hashes the bot should scrape and compile.
+   - ex. `/dump 5` will provide a .hc22000 file with the last 5 hashes in your channel.
 
 # Acknowledgments
 Special thanks to the Pwnagotchi project. I never would've figured this out if I didn't have you 😘
