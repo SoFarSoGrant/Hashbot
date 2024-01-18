@@ -30,7 +30,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 ## 2. Setting Up Discord Bot
 
-0. Turn on "Developer Mode" in your Server (this will be needed for later)
+0. **Turn on "Developer Mode" in your Server (this will be needed for later)**
    - Right click on your server and choose "Server Settings"
    - Go to the "Advanced" tab and toggle on the "Developer Mode" <br />
    <br />
@@ -123,11 +123,20 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 ### Where to find your token & IDs
    - **DISCORD_TOKEN** = Bot Token
-      - See step 2 of Setting up your Discord Bot
+      - See step 2.2 of Setting up your Discord Bot
    - **DISCORD_GUILD** = Server ID
       - Right click on your main server icon and select "Copy Server ID" at the bottom of the dropdown.
    - **GUILD_CHANNEL** = Channel ID
       - Right click on your server channel (the one you invited your bot to) and select "Copy Channel ID" at the bottom of the dropdown.
+
+# 4. Let's Wake Up the Bot
+1. **Make sure your in the project directory**
+2. **Run the following in your terminal**
+   ```
+   python3 hashbot.py
+   ```
+3. **Voila**
+   - If everything is set up properly, your bot should be active in your server.
 
 # HashBot for Discord
 
