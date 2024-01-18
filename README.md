@@ -58,7 +58,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 
 2. **Get Your Bot Token**:
-   - Under the "Bot" tab, find the "Token" section and click "Copy" to get your bot's token. ***(Don't lose this, or you'll have to reset it and create a new one!)***
+   - Under the "Bot" tab, find the "Token" and click "Copy" to get your bot's token. ***(Don't lose this, or you'll have to reset it and create a new one!)***
    - Paste your Token in a text editor for now.
 
 3. **Remember Turning on Developer Mode?**
