@@ -17,7 +17,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 
 <details>
-<summary><b>1. Installation</b></summary>
+# <summary><b>1. Installation</b></summary>
 
 
 1. **Clone the Repository**:
@@ -36,7 +36,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 </details>
 
 <details>
-<summary><b>2. Setting Up Discord Bot</b></summary>
+# <summary><b>2. Setting Up Discord Bot</b></summary>
 
 1. **Create a Discord Bot**:
 - Visit the [Discord Developer Portal.](https://discord.com/developers/applications)
@@ -54,7 +54,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 </details>
 <details>
-<summary><b>Creating the '.env' File</b></summary>
+# <summary><b>Creating the '.env' File</b></summary>
 
 ### The .env file contains sensitive information like your bot's token. Follow these instructions based on your operating system:
 
