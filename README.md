@@ -50,6 +50,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 1. **Create a Discord Bot**:
    - Visit the [Discord Developer Portal.](https://discord.com/developers/applications)
    - Click "New Application", give it a name (anything you want), and create your app.
+      - I named mine 'wirecat' because why not.
    - Go to the "Bot" tab and click "Add Bot".
 
 > [!WARNING]
