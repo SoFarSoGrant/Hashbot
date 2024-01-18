@@ -1,11 +1,11 @@
 # HashBot for DiscoHash
 
-HashBot is a custom Discord bot designed to interact with the Pwnagotchi network auditing tool, enhancing the functionality of the DiscoHash plugin. It allows users to request and receive network hash information directly through Discord commands.
+HashBot is a custom Discord bot shamelessly pulled from [@flamebarke's](https://github.com/flamebarke) [DiscoHash plugin](https://github.com/flamebarke/DiscoHash/tree/main). Being a noob, I wanted a clear description of how to get the bot functionality & features out of the plugin. This bot allows users to request and receive network hash files directly through Discord commands.
 
 ### Acknowledgments
 
 - This bot is an extension of the work done by [@flamebarke](https://github.com/flamebarke), particularly building upon the super dope [DiscoHash plugin](https://github.com/flamebarke/DiscoHash/tree/main)
-- The `hashbot.py` code is derived from [@flamebarke's](https://github.com/flamebarke) repository and aims to elaborate on and simplify the deployment of DiscoHash plugin's bot capabilities.
+- The `hashbot.py` code is derived from [@flamebarke's](https://github.com/flamebarke) repository and aims to elaborate on, and simplify the deployment of, DiscoHash plugin's bot capabilities.
 
 ### Features
 
