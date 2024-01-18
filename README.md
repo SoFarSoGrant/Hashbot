@@ -53,7 +53,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 3. **Remember Turning on Developer Mode?**
    - Go to the "Bot" tab and turn on all of the **Privileged Intent Gateways**<br />
-   <br />
+
      ![Right here](https://media.discordapp.net/attachments/1197390386130337852/1197401386007146496/Screenshot_2024-01-17_at_10.44.09_PM.png?ex=65bb21f1&is=65a8acf1&hm=05b4076f13fdad4a2409fb8f51dfceebb35b6ef343872e71717c8484e6cfe9da&=&format=webp&quality=lossless&width=1440&height=476)
 
 4. **Add Bot to Your Discord Server**:
@@ -61,10 +61,10 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    - Under "Scopes", select "bot".
    - Select the the permissions for your bot.
    - **These permissions work just fine.** <br />
-   <br />
+
    
        ![Permissions for your new bot](https://cdn.discordapp.com/attachments/1197390386130337852/1197398452380913764/Screenshot_2024-01-17_at_10.22.39_PM.png?ex=65bb1f35&is=65a8aa35&hm=c74bbf0aa8e207765339c9844e7e9f0ca22b8747abd027c110f5ab92c66431fa&)
-     <br />
+
    - Use the generated URL to "Authorize" the bot on your Discord server that is collecting hashes from DiscoHash.
      <br />
   ![You should see something like this](https://discordjs.guide/assets/bot-auth-page.e624796f.png)
