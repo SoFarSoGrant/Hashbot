@@ -78,7 +78,8 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 > [!IMPORTANT]
 > This file should be created and saved in the same directory as hashbot.py
 
-### The .env file contains sensitive information like your bot's token. 
+### The .env file contains sensitive information like your bot's token. Don't Share it!
+
 ***Select the dropdown based on your operating system:***
 
 <details>
@@ -105,9 +106,22 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
   touch .env
   ```
    - Open it with a text editor and add your environment variables.
+```
+> DISCORD_TOKEN=your_discord_bot_token
+> DISCORD_GUILD=your_discord_guild_id
+> GUILD_CHANNEL=your_discord_channel_id
+```
 > [!NOTE]
-> If you don't see it in your finder window press `⌘ + shift + .` to reveal it 
+> If you don't see the .env file in your finder window press `⌘ + shift + .` to reveal it 
 </details>
+
+### Where to find your token & IDs
+   - **DISCORD_TOKEN** = Bot Token
+      - See step 2 of Setting up your Discord Bot
+   - **DISCORD_GUILD** = Server ID
+      - Right click on your main server icon and select "Copy Server ID" at the bottom of the dropdown.
+   - **GUILD_CHANNEL** = Channel ID
+      - Right click on your server channel (the one you invited your bot to) and select "Copy Channel ID" at the bottom of the dropdown.
 
 # HashBot for Discord
 
