@@ -5,7 +5,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 ### Acknowledgments
 
 - This bot is an extension of the work done by [@flamebarke](https://github.com/flamebarke), particularly building upon the Main DiscoHash plugin in their repository.
-- The `hashbot.py` code is derived from [@flamebarke's](https://github.com/flamebarke) repository and aims to augment the DiscoHash plugin's capabilities.
+- The `hashbot.py` code is derived from [@flamebarke's](https://github.com/flamebarke) repository and aims to elaborate on and simplify the DiscoHash plugin's capabilities.
 
 ### Features
 
