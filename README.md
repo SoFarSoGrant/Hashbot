@@ -69,11 +69,14 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
      <br />
   ![You should see something like this](https://discordjs.guide/assets/bot-auth-page.e624796f.png)
 
-</br>
+
 ### Congratulations, you should have a functioning Bot on your server. Now let's wake it up. 🤖
 
 
 # Creating the '.env' File
+
+> [!IMPORTANT]
+> This file should be created and saved in the same directory as hashbot.py
 
 ### The .env file contains sensitive information like your bot's token. Follow these instructions based on your operating system:
 
@@ -86,9 +89,21 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 > DISCORD_GUILD=your_discord_guild_id
 > GUILD_CHANNEL=your_discord_channel_id
 ```
+- Save the file as .env (Select "All Files" as the file type and name it .env).
 
+### macOS/Linux:
 
-   </details>
+- Open Terminal.
+- Navigate to your project directory.
+- > [!TIP]
+  > type `cd ` into your terminal and just drag your directory into the window to get the path.
+- Run touch .env to create a new file.
+  ```
+  touch .env
+  ```
+- Open it with a text editor and add your environment variables.
+- > [!NOTE]
+> If you don't see it in your finder window press `⌘ + shift + .` to reveal it 
 ____________________
 
 # HashBot for Discord
