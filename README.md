@@ -146,6 +146,10 @@ If you don't see the .env file in your finder window press `⌘ + shift + .` to 
 
 # 4. Usage: Let's Wake Up the Bot
 1. **Make sure your in the project directory**
+```bash
+cd /Hashbot-main/Hashbot
+```
+  
 2. **Run the following in your terminal**
    ```
    python3 hashbot.py
