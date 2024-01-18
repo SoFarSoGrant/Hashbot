@@ -65,7 +65,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    
        ![Permissions for your new bot](https://cdn.discordapp.com/attachments/1197390386130337852/1197398452380913764/Screenshot_2024-01-17_at_10.22.39_PM.png?ex=65bb1f35&is=65a8aa35&hm=c74bbf0aa8e207765339c9844e7e9f0ca22b8747abd027c110f5ab92c66431fa&)
 
-   - Use the generated URL to "Authorize" the bot on your Discord server that is collecting hashes from DiscoHash.
+   - Copy/paste the generated URL into your address bar to "Authorize" the bot on your Discord server that is collecting hashes from DiscoHash.
      <br />
   ![You should see something like this](https://discordjs.guide/assets/bot-auth-page.e624796f.png)
 
