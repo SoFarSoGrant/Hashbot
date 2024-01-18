@@ -30,7 +30,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 2. **Navigate to the Repository Directory**:
    ```bash
-   cd hashbot
+   cd Hashbot
 
 3. **Install Required Libraries**:
    ```bash
