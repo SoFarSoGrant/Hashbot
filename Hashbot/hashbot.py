@@ -31,7 +31,7 @@ bot = commands.Bot(command_prefix="/", intents=discord.Intents.all())
 async def on_message(ctx, num_hashes=int(100)):
     try:
         await ctx.message.delete()
-        with open('hashdump.22000', 'w') as f:
+        with open('hashdump.hc22000', 'w') as f:
             channel = bot.get_channel(int(CHANNEL))
             message = channel.history(limit=int(num_hashes))
             async for i in message:
@@ -41,7 +41,7 @@ async def on_message(ctx, num_hashes=int(100)):
                     f.write(hash[1:-1])
                 except IndexError:
                     continue
-        with open('hashdump.22000', 'r') as f:
+        with open('hashdump.hc22000', 'r') as f:
             await ctx.send(file=discord.File(f, 'hashdump.hc22000'))
     except Exception as e:
         await ctx.send(f"An error occurred: {e}")
