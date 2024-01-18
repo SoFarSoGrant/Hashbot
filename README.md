@@ -38,12 +38,15 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 ![***This next part is important, so pay attention!***](https://media.discordapp.net/attachments/1197390386130337852/1197390426815070299/Screenshot_2024-01-17_at_9.38.16_PM.png?ex=65bb17bc&is=65a8a2bc&hm=9f0cb87b1457b32ba92850c120bbcb9529a6cd9ade602e6c3fbb0752a06a53ec&=&format=webp&quality=lossless)
 
 2. **Get Your Bot Token**:
-- Under the "Bot" tab, find the "Token" section and click "Copy" to get your bot's token. ***(Don't lose this, or you'll have to reset it and create a new one!!)***
+- Under the "Bot" tab, find the "Token" section and click "Copy" to get your bot's token. ***(Don't lose this, or you'll have to reset it and create a new one!)***
+- Paste your Token in a text editor for now.
 
 3. **Add Bot to Your Discord Server**:
 - Go to the "OAuth2" tab.
 - Under "Scopes", select "bot".
-- Select the necessary permissions for your bot.
+- Select the the permissions for your bot.
+  **These selections work just fine.**
+  ![](https://cdn.discordapp.com/attachments/1197390386130337852/1197392528073306193/Screenshot_2024-01-17_at_10.10.05_PM.png?ex=65bb19b1&is=65a8a4b1&hm=6aa08beb71be296b788b1abc1354c23ebc1b1deb666d989d8e7daf38e1c18673&)
 - Use the generated URL to add the bot to your Discord server.
 
 
