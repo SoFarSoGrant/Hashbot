@@ -168,15 +168,9 @@ If you don't see the .env file in your finder window press `⌘ + shift + .` to 
 2. Add a number to the `/dump` command to specify how many of the last hashes the bot should scrape and compile.
    - ex. `/dump 5` will provide a .hc22000 file with the last 5 hashes in your channel.
 
-# Acknowledgments
-Special thanks to the Pwnagotchi project. I never would've figured this out if I didn't have you 😘
-Most special thanks to @v0yager for creating DiscoHash and this Hat tip to anyone whose code was used.
-
 
 ### Notes:
+- **Additional Documentation**: If you have contributing guidelines or a license file, link them in the `README.md`.
+- **Functionality Details**: Add or modify any specific instructions or features related to your version of Hashbot.
 
-- **Customization**: Customize the URL in the `git clone` command with your actual GitHub repository URL.
-- **Additional Documentation**: If you have contributing guidelines or a license file, link them in the `README.md`. If not, you might want to create these files.
-- **Functionality Details**: Add or modify any specific instructions or features related to your version of HashBot.
-
-This `README.md` provides a basic structure that you can expand upon based on the specifics of your project and its deployment.
+This `README.md` provides a foundation that you can expand upon based on the specifics of your project and its deployment.
