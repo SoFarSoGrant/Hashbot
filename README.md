@@ -112,14 +112,14 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 ```
    - Save the file as .env (Select "All Files" as the file type and name it .env).
 </details>
+> [!TIP]
+> type `cd ` into your terminal and drag your directory into the window to get the path.
 <details>
 <summary><b>macOS/Linux:</b></summary>
 
    - Open Terminal.
    - Navigate to your project directory.
 
-> [!TIP]
-> type `cd ` into your terminal and drag your directory into the window to get the path.
 
 
    - Run touch .env to create a new file.
