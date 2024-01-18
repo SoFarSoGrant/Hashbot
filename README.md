@@ -32,11 +32,11 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 0. Turn on "Developer Mode" in your Server (this will be needed for later)
    - Right click on your server and choose "Server Settings"
-   - Go to the "Advanced" tab and toggle on the "Developer Mode"
-     <details>
-        <summary><b>View Screenshot</b></summary>
+   - Go to the "Advanced" tab and toggle on the "Developer Mode" <br />
+   <br />
+
   ![It will look like this](https://cdn.discordapp.com/attachments/1197390386130337852/1197399757681860729/Screenshot_2024-01-17_at_9.28.08_PM.png?ex=65bb206c&is=65a8ab6c&hm=ee4e41533115abfb1cdd04adc7003940bb68647f778df044b1a5a8eed5af72a9&)
-  </details>
+<br />
 
 1. **Create a Discord Bot**:
    - Visit the [Discord Developer Portal.](https://discord.com/developers/applications)
