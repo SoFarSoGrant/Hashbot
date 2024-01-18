@@ -30,24 +30,36 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 ## 2. Setting Up Discord Bot
 
+0. Turn on "Developer Mode" in your Server (this will be needed for later)
+   - Right click on your server and choose "Server Settings"
+   - Go to the "Advanced" tab and toggle on the "Developer Mode"
+  ![It will look like this](https://cdn.discordapp.com/attachments/1197390386130337852/1197399757681860729/Screenshot_2024-01-17_at_9.28.08_PM.png?ex=65bb206c&is=65a8ab6c&hm=ee4e41533115abfb1cdd04adc7003940bb68647f778df044b1a5a8eed5af72a9&)
+
 1. **Create a Discord Bot**:
-- Visit the [Discord Developer Portal.](https://discord.com/developers/applications)
-- Click "New Application", give it a name, and create your app.
-- Go to the "Bot" tab and click "Add Bot".
+   - Visit the [Discord Developer Portal.](https://discord.com/developers/applications)
+   - Click "New Application", give it a name (anything you want), and create your app.
+   - Go to the "Bot" tab and click "Add Bot".
 
 ![***This next part is important, so pay attention!***](https://media.discordapp.net/attachments/1197390386130337852/1197390426815070299/Screenshot_2024-01-17_at_9.38.16_PM.png?ex=65bb17bc&is=65a8a2bc&hm=9f0cb87b1457b32ba92850c120bbcb9529a6cd9ade602e6c3fbb0752a06a53ec&=&format=webp&quality=lossless)
 
 2. **Get Your Bot Token**:
-- Under the "Bot" tab, find the "Token" section and click "Copy" to get your bot's token. ***(Don't lose this, or you'll have to reset it and create a new one!)***
-- Paste your Token in a text editor for now.
+   - Under the "Bot" tab, find the "Token" section and click "Copy" to get your bot's token. ***(Don't lose this, or you'll have to reset it and create a new one!)***
+   - Paste your Token in a text editor for now.
 
-3. **Add Bot to Your Discord Server**:
-- Go to the "OAuth2" tab.
-- Under "Scopes", select "bot".
-- Select the the permissions for your bot.
-- **These permissions work just fine.**
-  ![Permissions for your new bot](https://cdn.discordapp.com/attachments/1197390386130337852/1197392528073306193/Screenshot_2024-01-17_at_10.10.05_PM.png?ex=65bb19b1&is=65a8a4b1&hm=6aa08beb71be296b788b1abc1354c23ebc1b1deb666d989d8e7daf38e1c18673&)
-- Use the generated URL to add the bot to your Discord server.
+3. **Remember Turning on Developer Mode?**
+   - Go to the "Bot" tab and turn on all of the **Privileged Intent Gateways**
+     ![Right here](https://cdn.discordapp.com/attachments/1197390386130337852/1197401386007146496/Screenshot_2024-01-17_at_10.44.09_PM.png?ex=65bb21f1&is=65a8acf1&hm=05b4076f13fdad4a2409fb8f51dfceebb35b6ef343872e71717c8484e6cfe9da&)
+
+4. **Add Bot to Your Discord Server**:
+   - Go to the "OAuth2" tab and select "URL Generator"
+   - Under "Scopes", select "bot".
+   - Select the the permissions for your bot.
+   - **These permissions work just fine.**
+       ![Permissions for your new bot](https://cdn.discordapp.com/attachments/1197390386130337852/1197398452380913764/Screenshot_2024-01-17_at_10.22.39_PM.png?ex=65bb1f35&is=65a8aa35&hm=c74bbf0aa8e207765339c9844e7e9f0ca22b8747abd027c110f5ab92c66431fa&)
+   - Use the generated URL to "Authorize" the bot on your Discord server that is collecting hashes from DiscoHash.
+  ![You should see something like this](https://discordjs.guide/assets/bot-auth-page.e624796f.png)
+
+### Congratulations, you should have a functioning Bot on your server. Now let's wake it up. 🤖
 
 
 # <summary><b>Creating the '.env' File</b></summary>
