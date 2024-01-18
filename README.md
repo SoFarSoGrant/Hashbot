@@ -5,16 +5,16 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 ## Acknowledgments
 
 - This bot is an extension of the work done by [@flamebarke](https://github.com/flamebarke), particularly building upon the Main DiscoHash plugin in their repository.
-- The `hashbot.py` code is derived from @flamebarke's repository and aims to augment the DiscoHash plugin's capabilities.
+- The `hashbot.py` code is derived from [@flamebarke's](https://github.com/flamebarke) repository and aims to augment the DiscoHash plugin's capabilities.
 
 ## Features
 
 - **Hash Retrieval**: Users can request hashes for a specified number of access points through Discord.
 - **Command Interaction**: Easy-to-use Discord commands to interact with Pwnagotchi.
-- **Seamless Integration**: Works alongside the Pwnagotchi's DiscoHash plugin.
+- **Seamless Integration**: Works alongside the Pwnagotchi's DiscoHash plugin. 
 
 <details>
-<summary><b>Installation</b></summary>
+<summary><b>1. Installation</b></summary>
 
 
 1. **Clone the Repository**:
@@ -33,9 +33,40 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 </details>
 
 <details>
-<summary><b>Setting Up Discord Bot</b></summary>
-<p>
+<summary><b>2. Setting Up Discord Bot</b></summary>
 
+1. **Create a Discord Bot**:
+- Visit the [Discord Developer Portal.](https://discord.com/developers/applications)
+- Click "New Application", give it a name, and create your app.
+- Go to the "Bot" tab and click "Add Bot".
+
+2. **Get Your Bot Token**:
+- Under the "Bot" tab, find the "Token" section and click "Copy" to get your bot's token. ***(Don't lose this, or you'll have to reset it and create a new one!!)***
+
+3. **Add Bot to Your Discord Server**:
+- Go to the "OAuth2" tab.
+- Under "Scopes", select "bot".
+- Select the necessary permissions for your bot.
+- Use the generated URL to add the bot to your Discord server.
+
+</details>
+<details>
+<summary><b>Creating the '.env' File</b></summary>
+
+### The .env file contains sensitive information like your bot's token. Follow these instructions based on your operating system:
+
+### Windows:
+
+- Open Notepad.
+- Add your environment variables:
+
+> DISCORD_TOKEN=your_discord_bot_token
+> DISCORD_GUILD=your_discord_guild_id
+> GUILD_CHANNEL=your_discord_channel_id
+
+
+
+   </details>
 ____________________
 
 # HashBot for Discord
