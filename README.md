@@ -2,12 +2,12 @@
 
 HashBot is a custom Discord bot designed to interact with the Pwnagotchi network auditing tool, enhancing the functionality of the DiscoHash plugin. It allows users to request and receive network hash information directly through Discord commands.
 
-## Acknowledgments
+### Acknowledgments
 
 - This bot is an extension of the work done by [@flamebarke](https://github.com/flamebarke), particularly building upon the Main DiscoHash plugin in their repository.
 - The `hashbot.py` code is derived from [@flamebarke's](https://github.com/flamebarke) repository and aims to augment the DiscoHash plugin's capabilities.
 
-## Features
+### Features
 
 - **Hash Retrieval**: Users can request hashes for a specified number of access points through Discord.
 - **Command Interaction**: Easy-to-use Discord commands to interact with Pwnagotchi.
@@ -16,8 +16,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 
 
-<details>
-# <summary><b>1. Installation</b></summary>
+## 1. Installation
 
 
 1. **Clone the Repository**:
@@ -33,10 +32,8 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    pip install -r requirements.txt
 
 
-</details>
 
-<details>
-# <summary><b>2. Setting Up Discord Bot</b></summary>
+## 2. Setting Up Discord Bot
 
 1. **Create a Discord Bot**:
 - Visit the [Discord Developer Portal.](https://discord.com/developers/applications)
@@ -52,8 +49,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 - Select the necessary permissions for your bot.
 - Use the generated URL to add the bot to your Discord server.
 
-</details>
-<details>
+
 # <summary><b>Creating the '.env' File</b></summary>
 
 ### The .env file contains sensitive information like your bot's token. Follow these instructions based on your operating system:
@@ -62,11 +58,11 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 - Open Notepad.
 - Add your environment variables:
-
+```
 > DISCORD_TOKEN=your_discord_bot_token
 > DISCORD_GUILD=your_discord_guild_id
 > GUILD_CHANNEL=your_discord_channel_id
-
+```
 
 
    </details>
