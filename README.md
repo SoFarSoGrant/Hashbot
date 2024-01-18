@@ -29,7 +29,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/hashbot.git
+   git clone https://github.com/SoFarSoGrant/Hashbot.git
 
 2. **Navigate to the Repository Directory**:
    ```bash
