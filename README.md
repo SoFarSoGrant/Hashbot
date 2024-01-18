@@ -15,7 +15,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 <details>
 <summary><b>Installation</b></summary>
-<p>
+
 
 1. **Clone the Repository**:
    ```bash
@@ -29,7 +29,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    ```bash
    pip install -r requirements.txt
 
-</p>
+
 </details>
 
 <details>
