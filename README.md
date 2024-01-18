@@ -40,7 +40,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 - Go to the "Bot" tab and click "Add Bot".
 
 '''
-#Your bot's token
+# Your bot's token
 ***This section is critical, so pay close attention. It explains what your bot token is, as well as the security aspects of it.***
 '''
 
