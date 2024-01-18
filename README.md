@@ -42,7 +42,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 ## 2. Setting Up Discord Bot
 
-0. **Turn on "Developer Mode" in your Server (this will be needed for later)**
+1. **Turn on "Developer Mode" in your Server (this will be needed for later)**
    - Right click on your server and choose "Server Settings"
    - Go to the "Advanced" tab and toggle on the "Developer Mode" <br />
    <br />
@@ -50,7 +50,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
   ![It will look like this](https://cdn.discordapp.com/attachments/1197390386130337852/1197399757681860729/Screenshot_2024-01-17_at_9.28.08_PM.png?ex=65bb206c&is=65a8ab6c&hm=ee4e41533115abfb1cdd04adc7003940bb68647f778df044b1a5a8eed5af72a9&)
 <br />
 
-1. **Create a Discord Bot**:
+2. **Create a Discord Bot**:
    - Visit the [Discord Developer Portal.](https://discord.com/developers/applications)
    - Click "New Application", give it a name (anything you want), and create your app.
       - I named mine 'wirecat' because why not.
@@ -60,17 +60,17 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 > This next step is important, so pay attention!
 
 
-2. **Get Your Bot Token**:
+3. **Get Your Bot Token**:
    - Under the "Bot" tab, find the "Token" and click "Copy" to get your bot's token. ***(Don't lose this, or you'll have to reset it and create a new one!)***
    - Paste your Token in a text editor for now.
 
-3. **Remember Turning on Developer Mode?**
+4. **Remember Turning on Developer Mode?**
    - Go to the "Bot" tab and turn on all of the "Privileged Gateways Intents"<br />
       - These options aren't available if not in Developer Mode.
 
      ![Right here](https://media.discordapp.net/attachments/1197390386130337852/1197401386007146496/Screenshot_2024-01-17_at_10.44.09_PM.png?ex=65bb21f1&is=65a8acf1&hm=05b4076f13fdad4a2409fb8f51dfceebb35b6ef343872e71717c8484e6cfe9da&=&format=webp&quality=lossless&width=1440&height=476)
 
-4. **Add Bot to Your Discord Server**:
+5. **Add Bot to Your Discord Server**:
    - Go to the "OAuth2" tab and select "URL Generator"
    - Under "Scopes", select "bot".
    - Select the the permissions for your bot.
