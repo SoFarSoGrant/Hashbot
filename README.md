@@ -4,8 +4,8 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 ### Acknowledgments
 
-- This bot is an extension of the work done by [@flamebarke](https://github.com/flamebarke), particularly building upon the Main DiscoHash plugin in their repository.
-- The `hashbot.py` code is derived from [@flamebarke's](https://github.com/flamebarke) repository and aims to elaborate on and simplify the DiscoHash plugin's capabilities.
+- This bot is an extension of the work done by [@flamebarke](https://github.com/flamebarke), particularly building upon the super dope [DiscoHash plugin](https://github.com/flamebarke/DiscoHash/tree/main)
+- The `hashbot.py` code is derived from [@flamebarke's](https://github.com/flamebarke) repository and aims to elaborate on and simplify the deployment of DiscoHash plugin's bot capabilities.
 
 ### Features
 
@@ -176,6 +176,5 @@ Most special thanks to @v0yager for creating DiscoHash and this Hat tip to anyon
 - **Customization**: Customize the URL in the `git clone` command with your actual GitHub repository URL.
 - **Additional Documentation**: If you have contributing guidelines or a license file, link them in the `README.md`. If not, you might want to create these files.
 - **Functionality Details**: Add or modify any specific instructions or features related to your version of HashBot.
-- **Markdown Formatting**: This is formatted in Markdown, which is standard for `README.md` files on GitHub. You can further enhance it with additional Markdown formatting as needed.
 
 This `README.md` provides a basic structure that you can expand upon based on the specifics of your project and its deployment.
