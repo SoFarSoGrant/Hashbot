@@ -1,4 +1,4 @@
-# HashBot for Discord
+# HashBot for DiscoHash
 
 HashBot is a custom Discord bot designed to interact with the Pwnagotchi network auditing tool, enhancing the functionality of the DiscoHash plugin. It allows users to request and receive network hash information directly through Discord commands.
 
