@@ -13,6 +13,9 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 - **Command Interaction**: Easy-to-use Discord commands to interact with Pwnagotchi.
 - **Seamless Integration**: Works alongside the Pwnagotchi's DiscoHash plugin. 
 
+
+
+
 <details>
 <summary><b>1. Installation</b></summary>
 
