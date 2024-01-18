@@ -80,7 +80,8 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 
 ### The .env file contains sensitive information like your bot's token. Follow these instructions based on your operating system:
 
-### Windows:
+<details>
+<summary>Windows:</summary>
 
    - Open Notepad.
    - Add your environment variables:
@@ -90,8 +91,9 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
 > GUILD_CHANNEL=your_discord_channel_id
 ```
    - Save the file as .env (Select "All Files" as the file type and name it .env).
-
-### macOS/Linux:
+</details>
+<details>
+<summary>**macOS/Linux:**</summary>
 
    - Open Terminal.
    - Navigate to your project directory.
@@ -104,7 +106,7 @@ HashBot is a custom Discord bot designed to interact with the Pwnagotchi network
    - Open it with a text editor and add your environment variables.
 > [!NOTE]
 > If you don't see it in your finder window press `⌘ + shift + .` to reveal it 
-
+</details>
 
 # HashBot for Discord
 
